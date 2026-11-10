@@ -218,3 +218,28 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Kaggle credentials
+kaggle.json
+.kaggle/
+*token*
+
+# Dataset
+data/
+petfinder_data/
+*.zip
+
+# Generated features and models
+features/
+*.npy
+*.pkl
+*.joblib
+*.pth
+*.pt
+
+# Python
+__pycache__/
+*.pyc
+
+# macOS
+.DS_Store
